@@ -1,0 +1,44 @@
+<html> 
+    <head>
+        <title>Module 04 - Script Creation</title>
+    </head>
+    <body>
+        <center>
+            <h1>Module 04 - Script Creation</h1>
+        </center><center><div>
+            <form>
+         <h2> Please enter the cost of services in dollars.(5.00 to 500.00)</h2>
+        <input type="text" id = "cost" placeholder = "Enter service cost">
+        <p id="test"></p>
+        <br>
+       <h2>How was the service? (Great, Ok, or Poor?)</h2>
+       <select id="rate">
+        <option disabled selected value="0">-- Quality of Service --</option>
+        <option value="0.2">20&#37; &#45; It was Great</option>
+        <option value="0.15">15&#37; &#45; It was Ok</option>
+        <option value="0.10">10&#37; &#45; It was Poor</option>
+       </select>
+       </form>
+        <br>
+       <br>
+       <br>
+       <br>
+       <button id="calculate"> Calculate tip</button>
+        </div>
+        <div id="tipcost">
+        <p><b>Your tip is</b></p>
+            <p id="tip"></p>
+    </div></center>
+    <p id="tip2"></p>
+       <style>
+       div {
+        width: 300px;
+        border: 15px solid rgb(0, 9, 0);
+        padding: 50px;
+        margin: 20px;
+      }
+      </style>
+    <footer><center><a href="../Module_01/Activity/index.html">Return to home page</a></center></footer>
+    <script src ="extJavaScript3.js"></script>  
+</body>
+</html>
