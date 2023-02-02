@@ -31,5 +31,5 @@ class dog{
 }
 }
 
-let WhiteFang = new dog("White Fang", "Wolf-dog hybrid", "White Fang", "I can be very scary if you make me mad", "I was a wild dog that found domestication. I've seen both good and bad sides of humans", true);
+let WhiteFang = new dog("White Fang", "Wolf-dog hybrid", "White Fang", "I can be very scary if you make me mad", "I was a wild dog that found domestication. I've seen both good and bad sides of humans", false);
 document.getElementById("show2").innerHTML = WhiteFang.myGreeting2();
